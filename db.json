@@ -1,0 +1,603 @@
+{
+  "my-offerings": [
+    {
+      "id": "23gr4gdyuoqfo3",
+      "offering": "C#",
+      "imageFile": {
+        "name": "",
+        "type": "",
+        "size": ""
+      },
+      "title": "Intro to C#",
+      "description": "Fundamentals of C# and DotNet",
+      "status": "active",
+      "courseLocations": ["online", "mentor's place", "student's place"],
+      "lessonMode": "group",
+      "preferredLanguages": ["english", "norsk"],
+      "pricingPerAttendee": 25,
+      "hours": 2,
+      "starts": "Sat June 06 2021 19:36:39 GMT+0200 (Central European Summer Time)",
+      "ends": "Sat July 06 2021 19:36:39 GMT+0200 (Central European Summer Time)",
+      "included": "pdf",
+      "excluded": "certificate"
+    },
+    {
+      "id": "otrwysgg3ygewufgw4",
+      "offering": "Javascript",
+      "imageFile": {
+        "name": "",
+        "type": "",
+        "size": ""
+      },
+      "title": "Intro to Javascript",
+      "description": "Fundamentals of JS and the web",
+      "status": "forReview",
+      "courseLocations": ["online", "student's place"],
+      "lessonMode": "1-on-1",
+      "preferredLanguages": ["english", "norsk"],
+      "additionalCosts": 20,
+      "oneHourFree": true,
+      "starts": "Sat June 06 2021 19:36:39 GMT+0200 (Central European Summer Time)",
+      "ends": "Sat July 06 2021 19:36:39 GMT+0200 (Central European Summer Time)",
+      "oneOnOnePackages": [
+        {
+          "id": "78gfyfyfg",
+          "name": "Quick Learning",
+          "hours": 4,
+          "pricing": 50,
+          "included": "pdf",
+          "excluded": "snacks"
+        },
+        {
+          "id": "479rwtutgwey",
+          "name": "Advanced Learning",
+          "hours": 5,
+          "pricing": 100,
+          "included": "pdf",
+          "excluded": "snacks"
+        }
+      ]
+    },
+    {
+      "id": "wrg8egqfiuagd",
+      "offering": "Java",
+      "imageFile": {
+        "name": "",
+        "type": "",
+        "size": ""
+      },
+      "title": "Intro to Java",
+      "description": "Fundamentals of Java and JVM",
+      "status": "inactive",
+      "courseLocations": ["online", "mentor's place"],
+      "lessonMode": "1-on-1",
+      "preferredLanguages": ["english", "norsk"],
+      "additionalCosts": 20,
+      "oneHourFree": false,
+      "starts": "Sat June 06 2021 19:36:39 GMT+0200 (Central European Summer Time)",
+      "ends": "Sat July 06 2021 19:36:39 GMT+0200 (Central European Summer Time)",
+      "oneOnOnePackages": [
+        {
+          "id": "38hrufewbi",
+          "name": "Basic",
+          "hours": 3,
+          "pricing": 40,
+          "included": "pdf",
+          "excluded": "certificate"
+        },
+        {
+          "id": "54egrte5",
+          "name": "Standard",
+          "hours": 6,
+          "pricing": 60,
+          "included": "pdf",
+          "excluded": "certificate"
+        }
+      ],
+      "included": "pdf",
+      "excluded": "certificate"
+    }
+  ],
+  "users": [
+    {
+      "email": "student.devlin@gmail.com",
+      "password": "$2a$10$bXpFmc2JEMgRAIY7DQjZGe/J2KLUKvSMiiQf1qFB87ZX9BbH3Ib6u",
+      "roles": ["student"],
+      "id": "0-pGh4x"
+    },
+    {
+      "email": "mentor@gmail.com",
+      "password": "$2a$10$k4K7cyJyrOWYl0VWJoJ/ieemQskpznMvmUfAJ7McErVCnn5aySAki",
+      "roles": ["mentor"],
+      "id": "-4Yi-Hb"
+    },
+    {
+      "email": "student@gmail.com",
+      "password": "$2a$10$d4RrwVIV1MW6x1ND5AAAz.0vIg4BBn91Urk5BAPsJMOun8LHASODe",
+      "roles": ["student"],
+      "id": "BWPEjkH"
+    },
+    {
+      "email": "mentor.devlin@gmail.com",
+      "password": "$2a$10$o4X7gXfwPUDDnS5c0CwDkuDib2I6vXCbDoPTB4lGMjqEEOPeQTG2e",
+      "roles": "mentor",
+      "id": "IXhBRvf"
+    },
+    {
+      "email": "student@gmai.com",
+      "password": "$2a$10$93tqS5JP3B6yAkN5Mk8giu4RTdMhgsHgO5vp0XpYhX/v3i1bVa1Ra",
+      "roles": ["student"],
+      "id": "kxoBz-O"
+    }
+  ],
+  "my-profile": {
+    "id": "3289rhgwuo",
+    "imageUpload": "https://www.gravatar.com/avatar/3b3be63a4c2a439b013787725dfce802?d=identicon",
+    "firstName": "Devlin",
+    "lastName": "Duldulao",
+    "mobileNumber": "+32848932432",
+    "email": "devlin@gmail.com",
+    "yearBorn": "2001",
+    "personalSummary": "Hey, I'm a developer",
+    "address": {
+      "streetAddress": "Sandakerveien 114 A",
+      "zipCode": "0484",
+      "province": "",
+      "state": "",
+      "country": "Norway"
+    },
+    "socialLinks": {
+      "personalWebsite": "https://devlinduldulao.pro",
+      "linkedIn": "https://www.linkedin.com/company/inmeta-consulting-as/",
+      "twitter": "https://twitter.com/InmetaCon/",
+      "facebook": "https://www.facebook.com/InmetaConsulting/",
+      "other": ""
+    }
+  },
+  "qualifications": [
+    {
+      "id": "23ryweu9",
+      "institution": "AMA Computer University",
+      "courseOrQualification": "Bachelor of Science (Information Technology)",
+      "qualificationComplete": true,
+      "finished": "Sat Aug 03 2017 19:36:39 GMT+0200 (Central European Summer Time)",
+      "expectedFinish": "",
+      "courseHighlights": "Earned Microsoft MVP award before graduation"
+    },
+    {
+      "id": "3498hfwiug",
+      "institution": "University of Oslo",
+      "courseOrQualification": "Bachelor of Science (Astrophysics)",
+      "qualificationComplete": false,
+      "finished": "",
+      "expectedFinish": "Sat Aug 03 2021 19:36:39 GMT+0200 (Central European Summer Time)",
+      "courseHighlights": "In the process of achieving something big."
+    }
+  ],
+  "experiences": [
+    {
+      "id": "f734gyuw",
+      "jobTitle": "Full-stack Cloud Developer",
+      "companyName": "Inmeta",
+      "location": "Oslo, Norway",
+      "started": "Sat Aug 03 2019 19:36:39 GMT+0200 (Central European Summer Time)",
+      "ended": "",
+      "stillInRole": true,
+      "description": "I work mostly on front-end, back-end, mobile apps, and cloud services and infrastructures."
+    },
+    {
+      "id": "489ghiulfg3q89",
+      "jobTitle": "Full-stack Developer",
+      "companyName": "OSP",
+      "location": "Manila, Philippines",
+      "started": "Sat Aug 03 2015 19:36:39 GMT+0200 (Central European Summer Time)",
+      "ended": "Sat Aug 03 2019 19:36:39 GMT+0200 (Central European Summer Time)",
+      "stillInRole": false,
+      "description": "I work mostly on front-end, back-end, and mobile apps."
+    }
+  ],
+  "licenses-certifications": [
+    {
+      "id": "8493wytii7",
+      "name": "HashiCorp Certified: Terraform Associate",
+      "issuingOrganization": "HashiCorp",
+      "doesNotExpire": false,
+      "issueDate": "Sat May 03 2020 19:36:39 GMT+0200 (Central European Summer Time)",
+      "expirationDate": "Sat May 03 2022 19:36:39 GMT+0200 (Central European Summer Time)",
+      "credentialId": "",
+      "credentialUrl": "https://www.youracclaim.com/users/devlin-duldulao/badges"
+    },
+    {
+      "id": "78puyse8t",
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "issuingOrganization": "Microsoft",
+      "doesNotExpire": false,
+      "issueDate": "Sat June 06 2019 19:36:39 GMT+0200 (Central European Summer Time)",
+      "expirationDate": "Sat June 06 2021 19:36:39 GMT+0200 (Central European Summer Time)",
+      "credentialId": "14807118",
+      "credentialUrl": "https://www.youracclaim.com/users/devlin-duldulao/badges"
+    },
+    {
+      "id": "8329gfwiug",
+      "name": "Amazon Web Services Developer - Associate",
+      "issuingOrganization": "Amazon Web Services (AWS)",
+      "doesNotExpire": false,
+      "issueDate": "Sat July 09 2018 19:36:39 GMT+0200 (Central European Summer Time)",
+      "expirationDate": "Sat July 09 2020 19:36:39 GMT+0200 (Central European Summer Time)",
+      "credentialId": "NW8RY4K1HFQ4Q6SY",
+      "credentialUrl": "https://www.youracclaim.com/users/devlin-duldulao/badges"
+    }
+  ],
+  "personal-details": {
+    "id": "2qrfhug4p84q3uf",
+    "firstName": "Devlin",
+    "lastName": "Duldulao",
+    "mobileNumber": "+639977241599",
+    "country": "Norway",
+    "email": "devlinduldulao@gmail.com"
+  },
+  "personal-summary": {
+    "id": "4agf84gtuy",
+    "summary": "A passionate software developer, trainer, and international conference speaker"
+  },
+  "skills": {
+    "id": "8q3hyrufitg4",
+    "list": ["Angular", "React", "Vue", "Ember"]
+  },
+  "languages": [
+    {
+      "name": "Regional Assembly Language",
+      "year": 1951
+    },
+    {
+      "name": "Autocode",
+      "year": 1952
+    },
+    {
+      "name": "IPL",
+      "year": 1954
+    },
+    {
+      "name": "FLOW-MATIC",
+      "year": 1955
+    },
+    {
+      "name": "FORTRAN",
+      "year": 1957
+    },
+    {
+      "name": "COMTRAN",
+      "year": 1957
+    },
+    {
+      "name": "LISTP",
+      "year": 1958
+    },
+    {
+      "name": "ALGOL 58",
+      "year": 1958
+    },
+    {
+      "name": "FACT",
+      "year": 1959
+    },
+    {
+      "name": "COBOL",
+      "year": 1959
+    },
+    {
+      "name": "RPG",
+      "year": 1959
+    },
+    {
+      "name": "APL",
+      "year": 1962
+    },
+    {
+      "name": "SNOBOL",
+      "year": 1962
+    },
+    {
+      "name": "Simula",
+      "year": 1962
+    },
+    {
+      "name": "CPL",
+      "year": 1963
+    },
+    {
+      "name": "Speakeasy",
+      "year": 1964
+    },
+    {
+      "name": "BASIC",
+      "year": 1964
+    },
+    {
+      "name": "BASIC",
+      "year": 1964
+    },
+    {
+      "name": "PL",
+      "year": 1964
+    },
+    {
+      "name": "JOSS",
+      "year": 1966
+    },
+    {
+      "name": "MUMPS",
+      "year": 1966
+    },
+    {
+      "name": "BCPL",
+      "year": 1967
+    },
+    {
+      "name": "Logo",
+      "year": 1967
+    },
+    {
+      "name": "B",
+      "year": 1969
+    },
+    {
+      "name": "Pascal",
+      "year": 1970
+    },
+    {
+      "name": "Forth",
+      "year": 1970
+    },
+    {
+      "name": "C",
+      "year": 1972
+    },
+    {
+      "name": "Smalltalk",
+      "year": 1972
+    },
+    {
+      "name": "Prolog",
+      "year": 1972
+    },
+    {
+      "name": "ML",
+      "year": 1973
+    },
+    {
+      "name": "Scheme",
+      "year": 1975
+    },
+    {
+      "name": "SQL",
+      "year": 1978
+    },
+    {
+      "name": "C++",
+      "year": 1980
+    },
+    {
+      "name": "Ada",
+      "year": 1983
+    },
+    {
+      "name": "Common Lisp",
+      "year": 1984
+    },
+    {
+      "name": "MATLAB",
+      "year": 1984
+    },
+    {
+      "name": "FoxPpro",
+      "year": 1984
+    },
+    {
+      "name": "Clipper",
+      "year": 1984
+    },
+    {
+      "name": "Eiffel",
+      "year": 1985
+    },
+    {
+      "name": "Objective-C",
+      "year": 1986
+    },
+    {
+      "name": "LabVIEW",
+      "year": 1986
+    },
+    {
+      "name": "Erlang",
+      "year": 1986
+    },
+    {
+      "name": "Perl",
+      "year": 1987
+    },
+    {
+      "name": "Tcl",
+      "year": 1988
+    },
+    {
+      "name": "Wolfram",
+      "year": 1988
+    },
+    {
+      "name": "FL",
+      "year": 1989
+    },
+    {
+      "name": "Haskell",
+      "year": 1990
+    },
+    {
+      "name": "Python",
+      "year": 1991
+    },
+    {
+      "name": "Visual Basic",
+      "year": 1991
+    },
+    {
+      "name": "Lua",
+      "year": 1993
+    },
+    {
+      "name": "Ruby",
+      "year": 1995
+    },
+    {
+      "name": "Ada 95",
+      "year": 1995
+    },
+    {
+      "name": "Java",
+      "year": 1995
+    },
+    {
+      "name": "Delphi",
+      "year": 1995
+    },
+    {
+      "name": "JavaScript",
+      "year": 1995
+    },
+    {
+      "name": "PHP",
+      "year": 1995
+    },
+    {
+      "name": "Rebol",
+      "year": 1997
+    },
+    {
+      "name": "ActionScript",
+      "year": 2000
+    },
+    {
+      "name": "C#",
+      "year": 2001
+    },
+    {
+      "name": "D",
+      "year": 2001
+    },
+    {
+      "name": "Scratch",
+      "year": 2002
+    },
+    {
+      "name": "Groovy",
+      "year": 2003
+    },
+    {
+      "name": "Scala",
+      "year": 2003
+    },
+    {
+      "name": "F#",
+      "year": 2005
+    },
+    {
+      "name": "PowerShell",
+      "year": 2006
+    },
+    {
+      "name": "Clojure",
+      "year": 2007
+    },
+    {
+      "name": "Go",
+      "year": 2009
+    },
+    {
+      "name": "Rust",
+      "year": 2010
+    },
+    {
+      "name": "Dart",
+      "year": 2011
+    },
+    {
+      "name": "Kotlin",
+      "year": 2011
+    },
+    {
+      "name": "Elixir",
+      "year": 2011
+    },
+    {
+      "name": "Julia",
+      "year": 2012
+    },
+    {
+      "name": "TypeScript",
+      "year": 2012
+    },
+    {
+      "name": "Swift",
+      "year": 2014
+    }
+  ],
+  "heroes": [
+    {
+      "id": "7ggew732dw",
+      "firstName": "Barry",
+      "lastName": "Allen",
+      "house": "DC",
+      "knownAs": "Flash"
+    },
+    {
+      "id": "1ggew732dw",
+      "firstName": "Scott",
+      "lastName": "Summer",
+      "house": "Marvel",
+      "knownAs": "Cyclopes"
+    },
+    {
+      "id": "dfw7g2",
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "house": "Marvel",
+      "knownAs": "Spiderman"
+    },
+    {
+      "id": "9gfw9gde",
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "house": "DC",
+      "knownAs": "Batman"
+    },
+    {
+      "firstName": "Lex",
+      "lastName": "Luther",
+      "house": "DC",
+      "knownAs": "Lex",
+      "id": "3290fhe"
+    },
+    {
+      "firstName": "Max",
+      "lastName": "Eisenhardt",
+      "house": "Marvel",
+      "knownAs": "Magneto",
+      "id": "6r8finlfy"
+    },
+    {
+      "firstName": "Darkseid",
+      "lastName": "none",
+      "house": "DC",
+      "knownAs": "The ruler of Apokolops",
+      "id": "87rfyvivlf78"
+    },
+    {
+      "id": "97fyiyif",
+      "firstName": "Victor",
+      "lastName": "Von Doom",
+      "house": "Marvel",
+      "knownAs": "Doctor Doom"
+    }
+  ]
+}

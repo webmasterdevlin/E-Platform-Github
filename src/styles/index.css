@@ -1,0 +1,165 @@
+/*Slider - starts*/
+
+/*.PrivateValueLabel-label-22, .PrivateValueLabel-label-34, .PrivateValueLabel-label-58 {*/
+/*    font-size: 1.2rem !important;*/
+/*}*/
+
+.PrivateValueLabel-label {
+  font-size: 1.2rem !important;
+}
+
+.PrivateSwitchBase-input {
+  display: none !important;
+}
+
+input[type='radio'] {
+  display: none !important;
+}
+
+/*Slider - ends*/
+
+/*Datepicker - starts*/
+/*.MuiFormLabel-root {*/
+/*    font-size: 2rem !important;*/
+/*    padding-bottom: 5px !important;*/
+/*    margin-bottom: 1rem !important;*/
+/*}*/
+.MuiPickersDay-current {
+  color: #b3d4fc !important;
+}
+.MuiPickersDay-daySelected {
+  background-color: unset !important;
+}
+
+.MuiPickersDay-daySelected {
+  color: #64bc36 !important;
+}
+
+.MuiListItem-root {
+  font-size: 1.6rem !important;
+}
+
+.MuiListItem-root.Mui-selected {
+  font-size: 2rem !important;
+}
+/*Datepicker - ends*/
+
+/*Formik - starts*/
+/*.MuiTypography-subtitle1, .MuiFormHelperText-root {*/
+/*    font-size: 1.25rem !important;*/
+/*}*/
+/* Formik - Ends*/
+/* Steppers - start */
+
+.MuiTypography-body2 {
+  font-size: 2rem !important;
+  font-weight: bold !important;
+}
+.MuiTypography-body1 {
+  font-size: 2rem !important;
+  font-weight: normal !important;
+}
+
+.MuiStepIcon-text {
+  font-size: 1rem !important;
+}
+
+.MuiTypography-caption {
+  font-size: 1.5rem !important;
+}
+
+.grid-center {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.flex-center {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+/* Input With Right Icon - starts */
+.input-with-icon.righticon input {
+  padding-left: 20px !important;
+}
+
+.input-with-icon.righticon a i {
+  position: absolute;
+  right: 1px;
+  left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  padding: 15px 20px 15px 15px;
+  background: #fff;
+  pointer-events: all;
+}
+
+.input-with-icon.righticon a i:hover {
+  color: #f91942;
+}
+/* Input With Right Icon - ends */
+
+/* ========================================================================== Developement Ribbon ========================================================================== */
+.ribbon {
+  background-color: rgba(30, 144, 255, 1);
+  left: -3.5em;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  overflow: hidden;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+  width: 15em;
+  z-index: 99999;
+  pointer-events: none;
+  opacity: 0.75;
+}
+.ribbon span {
+  color: #000;
+  display: block;
+  font-weight: 400;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 5px #444;
+  pointer-events: none;
+}
+
+.reverse-ribbon {
+  background-color: rgba(30, 144, 255, 1);
+  right: -3.5em;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  overflow: hidden;
+  position: absolute;
+  top: 30px;
+  white-space: nowrap;
+  width: 15em;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.75;
+}
+.reverse-ribbon span {
+  color: #000;
+  display: block;
+  font-weight: 400;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 5px #444;
+  pointer-events: none;
+}
