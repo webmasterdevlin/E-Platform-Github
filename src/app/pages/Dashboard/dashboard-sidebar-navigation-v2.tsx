@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { logOut } from '../../features/auth/auth.localstorage.service';
 import { useDispatch, useSelector } from 'react-redux';
 import { IApplicationState } from '../../../store/types';
 import { Status } from './contents/CreateOfferingsContent/all-steps/schema/create-offerings.value';
 import { Dispatch } from 'redux';
-import { logoutUserFromStoreAction } from '../../features/auth/sign-in/sign-in.actions';
 
 function DashboardSidebarNavigationV2() {
   const dispatch: Dispatch = useDispatch();

@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBar from '../../components/nav-bar';
+import NavigationBar from '../../components/navigation-bar';
 import Footer from '../../components/footer';
 import TitleBar from '../../components/title-bar';
 
 function BookingPage() {
   return (
     <div id="wrapper">
-      <NavBar />
+      <NavigationBar />
       <div>
         <TitleBar title={'Booking'} />
 

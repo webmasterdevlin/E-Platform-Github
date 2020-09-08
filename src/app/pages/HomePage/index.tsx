@@ -1,13 +1,13 @@
 import * as React from 'react';
 import Footer from '../../components/footer';
-import NavBar from '../../components/nav-bar';
+import NavigationBar from '../../components/navigation-bar';
 import MainSearchContainer from '../../components/main-search-container';
 
 export default function HomePage() {
   return (
     <div className="transparent-header">
       <div id="wrapper">
-        <NavBar />
+        <NavigationBar />
 
         <MainSearchContainer />
 

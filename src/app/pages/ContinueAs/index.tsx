@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from '../../components/nav-bar';
+import NavigationBar from '../../components/navigation-bar';
 
 function ContinueAsPage() {
   return (
     <div id="wrapper">
-      <NavBar />
+      <NavigationBar />
       <h1>TODO: Continue as userHereFromTheBrowsersLocalStorage</h1>
     </div>
   );

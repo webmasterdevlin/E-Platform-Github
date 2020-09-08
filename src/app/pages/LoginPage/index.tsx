@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import NavBar from '../../components/nav-bar';
+import NavigationBar from '../../components/navigation-bar';
 import Footer from '../../components/footer';
 import AuthTabs from '../../features/auth/sign-in/auth-tabs';
 import TitleBar from '../../components/title-bar';
@@ -20,7 +20,7 @@ function LoginPage() {
 
   return (
     <div id="wrapper">
-      <NavBar />
+      <NavigationBar />
       <TitleBar title={'Login'} />
       <div className={'container d-flex justify-content-center'}>
         <div className={'w-75'}>

@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link, useMatch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import UserMenu from '../../features/auth/components/user-menu';
 import {
   Box,
-  Button,
   createStyles,
-  FormControlLabel,
   Grid,
   Switch,
   SwitchClassKey,

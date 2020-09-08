@@ -1,11 +1,11 @@
 import React from 'react';
-import NavBar from '../../components/nav-bar';
+import NavigationBar from '../../components/navigation-bar';
 import Footer from '../../components/footer';
 
 function ElementsPage() {
   return (
     <div id="wrapper">
-      <NavBar />
+      <NavigationBar />
       <div>
         {/* Content================================================== */}
         {/* Container */}

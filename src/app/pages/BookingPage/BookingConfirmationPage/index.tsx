@@ -1,12 +1,12 @@
 import React from 'react';
-import NavBar from '../../../components/nav-bar';
+import NavigationBar from '../../../components/navigation-bar';
 import TitleBar from '../../../components/title-bar';
 import Footer from '../../../components/footer';
 
 function BookingConfirmationPage() {
   return (
     <div id="wrapper">
-      <NavBar />
+      <NavigationBar />
       <div>
         <TitleBar title={'Booking Processed'} />
         {/* Content================================================== */}

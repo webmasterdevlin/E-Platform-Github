@@ -22,12 +22,6 @@ import PricingTablesPage from './pages/PricingTablesPage';
 import TypographyPage from './pages/TypographyPage';
 import UserProfilePage from './pages/UserProfilePage';
 import ComingSoonPage from './pages/ComingSoonPage';
-import HomeTwoPage from './pages/HomeTwoPage';
-import HomeTwoAirbnbPage from './pages/HomeTwoAirbnbPage';
-import HomeThreePage from './pages/HomeThreePage';
-import HomeFourPage from './pages/HomeFourPage';
-import HomeFivePage from './pages/HomeFivePage';
-import HomeSixPage from './pages/HomeSixPage';
 import Heroes from './demo-development/heroes-module/pages/Heroes';
 import BlogPost from './pages/BlogPage/BlogPostPage';
 import LoginPage from './pages/LoginPage';
@@ -51,12 +45,6 @@ const Router = () => {
   return (
     <Routes>
       <Route path={process.env.PUBLIC_URL + '/'} element={<HomePage />} />
-      <Route path={'home-two'} element={<HomeTwoPage />} />
-      <Route path={'home-two-airbnb'} element={<HomeTwoAirbnbPage />} />
-      <Route path={'home-three'} element={<HomeThreePage />} />
-      <Route path={'home-four'} element={<HomeFourPage />} />
-      <Route path={'home-five'} element={<HomeFivePage />} />
-      <Route path={'home-six'} element={<HomeSixPage />} />
       <Route path={'blog'} element={<BlogPage />} />
       <Route path={'blog-post'} element={<BlogPost />} />
       <Route path={'booking'} element={<BookingPage />} />
@@ -74,7 +62,7 @@ const Router = () => {
       <Route path={'heroes'} element={<Heroes />} />
       <Route path={'login'} element={<LoginPage />} />
       <Route path={'continue-as'} element={<ContinueAsPage />} />
-      <ProtectedRoute path={'dashboard'} element={<Dashboard />}>
+      <Route path={'dashboard'} element={<Dashboard />}>
         <Route path={`/`} element={<DashboardIndex />} />
         <Route path={`add-listing`} element={<AddListingContent />} />
         <Route path={`bookings`} element={<BookingsContent />} />
@@ -103,7 +91,7 @@ const Router = () => {
         <Route path={`tutorings`} element={<TutoringsContent />} />
         <Route path={`wallet`} element={<WalletContent />} />
         <Route path="*" element={<DashboardContentNotFound />} />
-      </ProtectedRoute>
+      </Route>
 
       <Route path="*" element={<NotFoundPage />} />
     </Routes>

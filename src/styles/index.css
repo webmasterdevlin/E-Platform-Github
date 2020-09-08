@@ -1,3 +1,14 @@
+.support {
+  transform: rotate(270deg);
+}
+
+#support-button {
+  position: fixed;
+  bottom: 50vh;
+  right: -2rem;
+  z-index: 9000;
+}
+
 /*Slider - starts*/
 
 /*.PrivateValueLabel-label-22, .PrivateValueLabel-label-34, .PrivateValueLabel-label-58 {*/
